@@ -16,6 +16,8 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
+  s.vendored_frameworks = 'WebP.framework', 'WebPDemux.framework'
+
   s.dependency 'React'
 
 end
